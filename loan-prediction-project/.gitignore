@@ -1,0 +1,25 @@
+# Scala/SBT compiled files
+target/
+project/target/
+project/project/
+
+# Spark checkpoints and temp files
+/tmp/
+checkpoint/
+derby.log
+metastore_db/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+myenv/
+.env
+venv/
+
+# OS files
+.DS_Store
+*.log
+
+# Model files (too large for GitHub)
+/tmp/best_loan_model/
